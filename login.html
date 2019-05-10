@@ -8,7 +8,7 @@
     <title>Daru-ru-ru!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
@@ -22,30 +22,25 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="register.html">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">Login</a>
-                            </li>
-                        </ul>
-                    </div>
                 </nav>
             </div>
         </header>
         <br>
         <main>
             <div class="container">
-                <div class="homepage-background">
-                </div>
-                <div class="homepage-content">
-                    <h1>Make you gaming more interesting!</h1>
-                    <div class="register-btn">
-                        <button class="btn btn-outline-dark my-2 my-sm-0">Join us</button>
+                <h1>Login</h1>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input class="form-control" id="username" aria-describedby="UsernameHelp" placeholder="Username">
+                        <small id="UsernameHelp" class="form-text text-muted">We'll never share your username with anyone else.</small>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="user-password">Password</label>
+                        <input type="password" class="form-control" id="user-password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-outline-dark my-2 my-sm-0">Submit</button>
+                </form>
             </div>
         </main>
         <hr>

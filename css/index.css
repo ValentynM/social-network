@@ -1,26 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Gabriela&subset=cyrillic');
-
-:root {
-    font-family: 'Gabriela', serif;
-}
+@import url('base.css');
 
 h1 {
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin: 30px 0px;
-}
-
-h1 {
-    font-size: 30px;
-}
-
-hr {
-    border-top: 1px dashed #8c8b8b;
-}
-
-header {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 header .navbar {
@@ -45,11 +26,6 @@ main .homepage-content {
 }
 
 .register-btn {
-    display: flex;
-    justify-content: center;
-}
-
-footer small {
     display: flex;
     justify-content: center;
 }
